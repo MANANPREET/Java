@@ -4,5 +4,10 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-	<bean id="person" class="com.manan.spring.test.Person"></bean>
+	<bean id="person" class="com.manan.spring.test.Person">
+		<constructor-arg value="777" name="id" index="0" type="int"></constructor-arg>
+		<constructor-arg value="Manan" name="name" index="1"
+			type="String">
+		</constructor-arg>
+	</bean>
 </beans>
