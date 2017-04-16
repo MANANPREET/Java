@@ -10,6 +10,7 @@
 		<property name="taxId">
 			<value>321</value>
 		</property>
+		<property name="address" ref="address"></property>
 	</bean>
 	<bean id="address" class="com.manan.spring.test.Address">
 		<constructor-arg name="street" value="Tilak Nagar"></constructor-arg>
