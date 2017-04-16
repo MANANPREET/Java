@@ -14,6 +14,7 @@ public class App {
 	ApplicationContext context = new ClassPathXmlApplicationContext("com/manan/spring/test/beans/beans.xml");
 	Person person = (Person) context.getBean("person");
 	person.speak();
+	System.out.println(person);
 	((ClassPathXmlApplicationContext)context).close();
 	}
 }
