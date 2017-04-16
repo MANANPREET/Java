@@ -11,4 +11,8 @@
 			<value>321</value>
 		</property>
 	</bean>
+	<bean id="address" class="com.manan.spring.test.Address">
+		<constructor-arg name="street" value="Tilak Nagar"></constructor-arg>
+		<constructor-arg name="postcode" value="110018"></constructor-arg>
+	</bean>
 </beans>
